@@ -3,11 +3,17 @@
     <head>
         <meta charset="UTF-8" />
         <title>{% block title %}Welcome!{% endblock %}</title>
+        <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="dist/css/font-awesome.css" rel="stylesheet">
+		<link type="text/css" href="dist/css/bootcards-desktop.css" rel="stylesheet">
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
         {% block body %}{% endblock %}
+        <script type="text/javascript" src="dist/js/jquery-2.1.4.js"></script>
+		<script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="dist/js/bootcards.js"></script>
         {% block javascripts %}{% endblock %}
     </body>
 </html>

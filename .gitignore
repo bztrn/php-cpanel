@@ -35,3 +35,12 @@
 
 # Composer PHAR
 /composer.phar
+
+.DS_Store
+._.DS_Store
+.buildpath
+.project
+.settings
+cpanel/web/._dist
+cpanel/web/dist/._css
+cpanel/web/dist/._js
